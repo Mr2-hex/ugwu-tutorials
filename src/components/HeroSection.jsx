@@ -4,7 +4,7 @@ import Logo from "../assets/images/UA-bbg-wobg2.png";
 
 const HeroSection = () => {
   return (
-    <section className="relative bg-white">
+    <section className="relative bg-white mt-8">
       <div className="max-w-3xl mx-auto px-6 text-center py-20">
         {/* Logo */}
         <div className="flex justify-center mb-6">
