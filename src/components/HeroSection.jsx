@@ -1,5 +1,7 @@
 import React from "react";
 import HeroImg from "../assets/images/students.png";
+import Logo from "../assets/images/logo.png";
+
 const HeroSection = () => {
   return (
     <section className="relative bg-white">
