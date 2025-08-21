@@ -5,13 +5,13 @@ const HeroSection = () => {
     <section className="relative bg-white">
       <div className="max-w-3xl mx-auto px-6 text-center py-20">
         {/* Hero Text */}
-        <h1 className="font-funnel text-5xl font-bold leading-tight text-gray-900">
-          A learning system that works like an{" "}
+        <h1 className="font-funnel text-5xl text-center font-bold leading-tight text-gray-900">
+          Not just tutorials—your study{" "}
           <span className="bg-blue-100 text-blue-700 px-3 py-1 rounded-4xl ">
-            Academy
+            community.{" "}
           </span>
         </h1>
-        <p className="mt-4 text-lg text-gray-600 font-inter">
+        <p className="mt-6 text-lg text-gray-600 font-inter">
           Great minds deserve a system that makes learning simple and fun.
         </p>
 
