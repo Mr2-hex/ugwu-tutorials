@@ -31,8 +31,8 @@ const Testimonials = () => {
   ];
 
   return (
-    <div className="px-40 py-20 max-[780px]:px-10">
-      <div className="flex flex-col md:flex-row md:justify-between items-start mb-12 gap-6">
+    <div className="px-40 py-20 max-[780px]:px-10 bg-gray-50">
+      <div className="flex flex-col md:flex-row md:justify-between items-start mb-12 gap-6 ">
         {/* Header and text together */}
         <div>
           <h2 className="text-left font-funnel font-bold text-4xl leading-snug max-[780px]:text-3xl">

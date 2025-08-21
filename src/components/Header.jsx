@@ -6,7 +6,7 @@ const Header = () => {
 
   return (
     <div className="flex justify-center items-center mt-4">
-      <header className="bg-[#211f1f] rounded-3xl shadow-md flex items-center w-[90%] md:w-[60%] justify-between px-6 py-4 text-white relative">
+      <header className="bg-[#211f1f] rounded-4xl shadow-md flex items-center w-[90%] md:w-[60%] justify-between px-6 py-4 text-white relative">
         {/* Logo */}
         <h1 className="text-xl font-bold">Ugwu Academy</h1>
 
