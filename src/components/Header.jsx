@@ -8,11 +8,11 @@ const Header = () => {
     <div className="flex justify-center items-center mt-4">
       <header className="bg-[#211f1f] rounded-4xl shadow-md flex items-center w-[90%] md:w-[60%] justify-between px-6 py-4 text-white relative">
         {/* Logo */}
-        <h1 className="text-xl font-bold">Ugwu Academy</h1>
+        <h1 className="text-xl font-bold font-funnel">Ugwu Academy</h1>
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex">
-          <ul className="flex gap-6">
+          <ul className="flex gap-6 font-inter">
             <li className="hover:text-gray-300 cursor-pointer">Home</li>
             <li className="hover:text-gray-300 cursor-pointer">Testimonials</li>
             <li className="hover:text-gray-300 cursor-pointer">Classes</li>

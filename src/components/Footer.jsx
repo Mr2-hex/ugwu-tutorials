@@ -1,5 +1,6 @@
 import React from "react";
 import { FaTwitter, FaInstagram, FaFacebook, FaLinkedin } from "react-icons/fa";
+import Logo from "../assets/images/logo.png";
 
 const Footer = () => {
   return (
@@ -7,6 +8,11 @@ const Footer = () => {
       <div className="container mx-auto px-6 md:px-12 grid grid-cols-1 md:grid-cols-4 gap-10">
         {/* Brand */}
         <div>
+          <img
+            src={Logo}
+            alt="Ugwu Academy Logo"
+            className="w-28 h-auto mb-4"
+          />
           <h2 className="text-white font-funnel text-2xl font-bold mb-4">
             Ugwu Academy
           </h2>
